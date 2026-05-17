@@ -22,7 +22,7 @@ main {
 }
 
 h1 {
-    width: 10px;
+    text-align: center;
     text-align: center;
 }
 
@@ -37,7 +37,7 @@ img {
 }
 
 section {
-    margin-top: 20px 0;
+    margin: 20px 0;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 10px;
     background-color: #abe;
