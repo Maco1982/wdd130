@@ -29,10 +29,11 @@ aside{
     background-color: #eee;
     color: #333;
     text-align: center;
+    box-sizing: border-box;
 }
 
 aside img {
-    width: 150%;
+    width: 125;
     height: auto;
 }
 
