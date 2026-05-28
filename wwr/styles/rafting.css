@@ -118,3 +118,7 @@ footer {
     border-radius: 5px;
     text-align: center;
 }
+
+button {
+    background-color: var(--second-color);
+ }
