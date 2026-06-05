@@ -6,14 +6,20 @@
 
 
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
+    color: #fff; /* shorthand for white */;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700
 }
 
 h1 {
@@ -22,8 +28,9 @@ h1 {
 }
 
 main {
-    max-width: 640px;
-    }
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 main img {
     width: 150px;
@@ -57,13 +64,9 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 640px;px;
+    top: 640px;
     left: 125px;
 }
-
-margin-bottom: 1em;{
-}
-
 
 footer {
     background-color: lightgray;
@@ -83,4 +86,69 @@ footer {
 }
 .indent {
     padding-left: 2em;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 100px 1fr auto;
+    align-items: center;
+    padding: 1rem;
+    background: #d9e6f2;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+#logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.navigation a {
+    color: darkblue
+    text-decoration: none;
+    font-size: bold;
+}
+
+.navigation a:hover {
+    color: #0066cc;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 250px 1fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+.adventures-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.adventures-gallery img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.adventures-gallery figure {
+    text-align: center;
+}
+
+.adventures-gallery figcaption {
+    margin-top: 0.5em;
+    font-size: 0.9rem;
+    color: #555;
 }
