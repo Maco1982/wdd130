@@ -26,6 +26,7 @@
 
 body {
     font-family: var(--body-font);
+    background-color: var(--accent2-color);
     color: var(--accent1-color);
 }
 
@@ -88,7 +89,7 @@ header nav {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--second-color);
 }
 
 h1 {
