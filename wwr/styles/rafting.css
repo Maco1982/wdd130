@@ -133,8 +133,7 @@ footer {
 }
 
 .socialmedia a {
-    display: flex;
-    gap: 15px;
+    text-decoration: none;
 }
 
 .socialmedia img {
