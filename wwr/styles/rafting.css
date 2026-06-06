@@ -132,6 +132,11 @@ footer {
     border-top: 1px solid #999;
 }
 
+.socialmedia {
+    display: flex;
+    gap: 15px;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
