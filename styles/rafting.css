@@ -175,9 +175,17 @@ footer {
     align-items: start;
  }
 
+.map {
+    width: 600;
+    height: 450px;
+    border: 0;
+}
+
+
  .map iframe {
     width: 100%;
-    border-radius: 8px;
+    height: 450px;
+    border-radius: 0;
  }
 
  .contact-form {
