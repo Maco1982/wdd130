@@ -57,27 +57,21 @@
             <fieldset> 
                 <legend> Message purpose </legend> 
             
+                <input type="radio" id="general" name="purpose" value="general" checked>
                 <label for="general">General inquiry</label>
-                    <input type="radio" id="general" name="purpose" value="general" checked>
-                    General Inquiry
-                </label>    
+                
 
-                <label for="reservation">
-                <input type="radio" id="reservation" name="purpose" value="reservation">
-                    Reservation Question
-                </label>
+                <input type="radio" id="reservation" name="purpose" value="reservation" checked>
+                <label for="reservation">Reservation Question</label>
 
-                <label for="suggestion">
-                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
-                    Website suggestion
-                </label>
-                </fieldset>        
+                <input type="radio" id="suggestion" name="purpose" value="suggestion" checked>
+                <label for="suggestion">Website Suggestion</label>
+                    
+            </fieldset>        
 
                 <div class="form-item message"> 
-                    <label for="message">Message</textarea>
-                    <textarea id="message">
-                    <textarea name= "message" id="massage"></textarea>"
-                    rows="10"></textarea>
+                    <label for="message">Message</label>
+                    <textarea id="message" name= "message" rows="10"></textarea>
 
                 </div>
             
