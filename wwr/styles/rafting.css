@@ -296,3 +296,7 @@ button:hover {
     gap: 1rem;
     margin-top: 20px;
 }
+
+.adventures-gallery figure {
+    text-align: center;
+}
