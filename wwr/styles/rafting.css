@@ -152,6 +152,23 @@ footer {
     height: auto;
 }
 
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%transform: traslateX(-50%)
+    color: white;
+    text-align: center;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
 .hero article img {
     float: right;
     width: 150px;
