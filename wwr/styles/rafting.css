@@ -289,3 +289,10 @@ button:hover {
     position: absolute;
     left: -9999px;
 }
+
+.adventures-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    margin-top: 20px;
+}
