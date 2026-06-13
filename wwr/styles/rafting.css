@@ -300,3 +300,22 @@ button:hover {
 .adventures-gallery figure {
     text-align: center;
 }
+
+.main-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2re;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.info-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.info-grid img {
+    width: 100%;
+}
