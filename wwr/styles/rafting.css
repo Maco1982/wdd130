@@ -76,7 +76,8 @@ footer {
 
 header nav {
     display: flex;
-    gap: 1.5rem;
+    justify-content: flex-end;
+    align-items: center;
 }
  
 .navigation {
@@ -130,10 +131,6 @@ footer {
 
 .socialmedia img {
     width: 32px;
-}
-
-.hero {
-    position: relative;
 }
 
 .hero article {
@@ -295,11 +292,6 @@ button:hover {
     position: relative;
 }
 
-.hero img {
-    width: 100%;
-    display: block;
-}
-
 .hero h1 {
     position: absolute;
     top: 20%;
@@ -367,7 +359,6 @@ button:hover {
     width: 100%;
     heigth: 250px;
     object-fit: cover;
-    border-radius: 8px;
 }
 
 .grid-item h2 {
@@ -379,6 +370,11 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+    .home-grid
+    .main-grid
+    .info-grid
+    .employee-grid
+    .contact-grid
     grid-template-columns: 1fr;
 }
 
@@ -400,7 +396,7 @@ button:hover {
     width: 100%;
 }
 
-.cta button {
+.cta {
     text-align: center;
     padding: 50px;
 }
