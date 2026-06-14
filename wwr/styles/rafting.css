@@ -152,16 +152,6 @@ footer {
     height: auto;
 }
 
-.hero h1 {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    text-align: center;
-}
-
-
 .hero article img {
     float: right;
     width: 150px;
@@ -337,6 +327,16 @@ button:hover {
     background: rgba(0,0,0,.45);
     padding: 20px;
     border-radius: 8px;
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.hero-text p {
+    margin-bottom: 15px;
 }
 
 .hero-button {
