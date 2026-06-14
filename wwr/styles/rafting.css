@@ -400,7 +400,7 @@ button:hover {
     width: 100%;
 }
 
-.cta {
+.cta button {
     text-align: center;
     padding: 50px;
 }
