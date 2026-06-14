@@ -10,17 +10,34 @@ body {
 }
 
 form {
-    background-color: rgb(85, 54, 14);
+    background-color:  rgb(249, 245, 239);
     padding: 1rem;
+    margin: 1rem 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     text-align: center;
-    padding: 1rem;
-    margin:1rem 0, 0, 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-input.textera, label, select{
-    display:block;
-    margin-bottom: 1rem;
+input.textera, select, button{
+    width: 450px;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
 }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: rgb(183, 124, 47);
+    color: antiquewhite;
+    padding: 1rem;
+    border: dished 1px antiquewhite;
+    border-radius: 10px;
+}
+
+
