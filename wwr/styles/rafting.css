@@ -284,6 +284,7 @@ button:hover {
 
 .hero {
     position: relative;
+    width: 100;
 }
 
 .hero h1 {
